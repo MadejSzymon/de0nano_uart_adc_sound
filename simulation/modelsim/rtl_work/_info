@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/DE0-Nano/UART/simulation/modelsim
+vtb
+Z1 !s110 1654863464
+!i10b 1
+!s100 5c_0_Vme<PAa22GmlJY:`3
+IY:oN[SoEJ>kOUUMnc^AgF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1654858628
+8C:/DE0-Nano/UART/tb.v
+FC:/DE0-Nano/UART/tb.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1654863464.000000
+!s107 C:/DE0-Nano/UART/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/DE0-Nano/UART|C:/DE0-Nano/UART/tb.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/DE0-Nano/UART
+Z6 tCvgOpt 0
+vuart_tx
+R1
+!i10b 1
+!s100 TRdIT^]dFzkoD7R>]lAO]2
+IMNMCQen;0:K^AMY5Gf4ZZ2
+R2
+R0
+w1654862432
+8C:/DE0-Nano/UART/uart_tx.v
+FC:/DE0-Nano/UART/uart_tx.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1654863463.000000
+!s107 C:/DE0-Nano/UART/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/DE0-Nano/UART|C:/DE0-Nano/UART/uart_tx.v|
+!i113 1
+R4
+R5
+R6

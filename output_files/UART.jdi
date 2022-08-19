@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="58ce3d9807a27e941181"/>
+  </project>
+  <file_info>
+    <file device="EP4CE22F17C6" path="UART.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="unnamedadc:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME unnamedadc HAS_SOPCINFO 1 GENERATION_ID 1654880951"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

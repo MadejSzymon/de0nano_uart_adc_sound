@@ -1,0 +1,4 @@
+create_clock -name board_clk -period 20.000 [get_ports {board_clk}]
+derive_clock_uncertainty
+set_false_path -from [get_ports {enb_tx}]
+set_false_path -to [get_ports {o_data_tx}]

@@ -1,0 +1,36 @@
+`timescale 1ns/1ns
+
+module tb();
+	
+	reg clk;
+	reg enb_tx;
+	reg [7:0] i_data_tx;
+	
+	wire o_data_tx;
+	
+	initial begin
+		i_data_tx <= 8'b10100011;
+		clk <= 0;
+		enb_tx <= 0;
+	end
+	
+	always begin
+		#10;
+		clk <= !clk;
+	end
+	
+	uart DUT(
+		.i_clk(clk),
+		.i_enb_tx(enb_tx)
+		.i_data_tx(i_data_tx),
+		.o_data_tx(o_data_tx)
+	);
+	
+	initial begin
+		repeat(5) @(posedge clk);
+		enb <= 1;
+		repeat(5) @(posedge clk);
+		enb <= 0;
+	end
+	
+endmodule 

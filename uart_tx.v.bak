@@ -1,0 +1,10 @@
+
+module uart_tx #(parameter DATA_BITS = 8, parameter BAUD_RATE = 9600, parameter CLK_FREQ = 50_000_000, parameter STOP_BITS = 2)
+(i_clk, i_data_tx, i_enb_tx, o_data_tx);
+
+	input i_clk;
+	input [DATA_BITS-1:0] i_data_tx;
+	input i_enb_tx;
+	output o_data_tx;
+	
+endmodule 

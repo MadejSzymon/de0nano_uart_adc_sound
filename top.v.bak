@@ -1,0 +1,20 @@
+module top(board_clk, enb_tx, o_data_tx);
+
+	input board_clk;
+	input enb_tx;
+	
+	output o_data_tx;
+	
+	reg [7:0] i_data_tx;
+	
+	initial begin
+		i_data_tx <= 8'b11001011;
+	end
+	
+	uart_tx #(.TICK_NBR(5207), .STOP_BITS(1), .DATA_BITS(8)) uart_tx(
+		.i_clk(clk),
+		.i_enb_tx(enb_tx),
+		.i_data_tx(i_data_tx),
+		.o_data_tx(o_data_tx)
+	);
+endmodule 
